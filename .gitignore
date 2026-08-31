@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# UTM and virtual-machine artifacts
+*.utm/
+*.iso
+*.qcow2
+*.img
