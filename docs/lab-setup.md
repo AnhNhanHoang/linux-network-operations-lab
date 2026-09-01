@@ -8,18 +8,20 @@ networking, system administration, and controlled troubleshooting.
 ## Host
 
 - Host operating system: macOS
-- Host architecture: arm64 / x86_64
+- Host architecture: arm64
 - Virtualisation tool: UTM
 
 ## Virtual machine
 
 - Name: web-server
 - Guest OS: Ubuntu Server 26.04 LTS
-- Architecture: arm64 / amd64
-- vCPU: 2
-- RAM: 2 GB / 3 GB
+- Architecture: aarch64
+- vCPU: default
+- RAM: 4 GiB
 - Disk: 20 GB
-- Network mode: Shared/NAT
+- Network mode: Shared
+- IP: 192.168.64.3/24
+- Default route: 192.168.64.1
 - Administrative user: opsadmin
 
 No passwords or secrets are stored in this repository.
