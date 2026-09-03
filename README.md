@@ -49,6 +49,22 @@ This repository will contain:
 - Lessons learned
 - A final practical assessment
 
+## Repository structure
+
+- `docs/` — General documentation about the lab and its design.
+- `runbooks/` — Repeatable operational and recovery procedures.
+- `incidents/` — Troubleshooting records, evidence, and root-cause analysis.
+- `scripts/` — Automation scripts and operational checks.
+- `diagrams/` — Network and system architecture diagrams.
+- `evidence/` — Selected evidence produced during labs.
+- `learning-log/` — Daily and weekly learning notes.
+- `logs/` — Sanitised command or application output.
+
 ## Current status
 
 Phase 0 — Day 1: evidence system and repository setup.
+Phase 0 - Day 2: virtual machine setup.
+Phase 0 - Day 3: github basic repository structure.
+Phase 0 - Day 4: github flow: branch -> PR -> merge
+
+
